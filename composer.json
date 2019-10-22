@@ -1,0 +1,13 @@
+{
+    "name": "macbook/twig_quest",
+    "require": {
+        "twig/twig": "^2.12",
+        "twbs/bootstrap": "4.3.1"
+    },
+    "authors": [
+        {
+            "name": "Mikaël MAROLLEAU-POIRIER",
+            "email": "mikael.mp@icloud.com"
+        }
+    ]
+}

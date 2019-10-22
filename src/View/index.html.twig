@@ -1,0 +1,17 @@
+{% extends "base.html.twig" %}
+{% block content %}
+<div class="container-fluid">
+    <div class="row">
+        {% for product in products%}
+            <div  class="card col-4">
+                <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title">{{product}}</h5>
+                <p class="card-text">C'est un super produit</p>
+                <a href="#" class="btn btn-primary">Commander</a>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}
