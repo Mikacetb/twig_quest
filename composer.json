@@ -1,7 +1,7 @@
 {
     "name": "macbook/twig_quest",
     "require": {
-        "twig/twig": "^2.12",
+        "twig/twig": "^3.11",
         "twbs/bootstrap": "4.3.1"
     },
     "authors": [
